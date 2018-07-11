@@ -2,6 +2,7 @@
 let readline = require("readline-sync");
 
 // 1. Ask the user to enter a number, and print out "The square root of ___ is ___ ", but with the blanks filled in correctly. (Not sure how to get the square root of a number in JavaScript? Google it!)
+// 1. Ask the user to enter a number, and print out "The square root of ___ is ___ ", but with the blanks filled in correctly. (Not sure how to get the square root of a number in JavaScript? Google it!)
 //console.log("The square root of " + num "is " static int floorSqrt(num));
 let num = readline.question("Please enter a number: ");
 console.log("the square root of " + num  + " is" + Math.sqrt(num) );
