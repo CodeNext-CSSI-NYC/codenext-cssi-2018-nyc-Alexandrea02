@@ -17,34 +17,51 @@ readline = require("readline-sync");
 // print 1, 2, 3, 4, 6, 8, 12, 24. Recall that the factors of a number are all
 // the numbers it is divisible by (from 1 up to itself).
 // Make sure to test this with several numbers (including some huge ones from fun).
- function factors(); {
- 	for(var i = 1; i <= 20; i++) {
- 		i % 2 
-	 console.log(i);
-   }
- }
+ // function factors() {
+ // 	for(var i = readline.question("choose a number: "); i <= 20; i++) {
+ // 		if (i % 2 == 0) {
+ // 		console.log[i];
+ // 	}
+ //   }
+ // }
+ //  factors();
 
 
 // 3. Print out all of the odd numbers between 300 and 350 (using a loop).
 
-for (var i = 300 ; i <= 350; i++) {
-	 i % 2 = 1;
- 	console.log(i);
-}
+// for (var i = 300 ; i <= 350; i++) {
+// 	if (i % 2 == 1) {
+// 		console.log(i);
+// 	}
+ 	
+// }
 // 4. Write a function that, given a string of any length,
 // returns true if it contains at least one space.
 
+  function containsSpace(word) {
+ 	for (var i = 0; i < word.length; i++) {
+ 		let letter = [i]
+ 		if (letter== " ");
+ 		console.log("true");
+ 	}
+ 	else {
+ 		console.log("false");
+ 	}
+ }
+
+ console.log (containsSpace(" ") );
+
 // // Some tests
-// console.log(containsSpace("star wars") == true);
-// console.log(containsSpace("     ") == true);
-// console.log(containsSpace("apple") == false);
-// console.log(containsSpace("") == false);
+console.log(containsSpace("star wars") == true);
+console.log(containsSpace("     ") == true);
+console.log(containsSpace("apple") == false);
+console.log(containsSpace("") == false);
 
 
 
 // // 5. Given a string of any length, return the total number of times "a" or "A" appears.
 // function countAs(str) {
-
+	//if(char.At)
 // }
 // // Some tests
 // console.log(countAs("happy") == 1);
